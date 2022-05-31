@@ -12,7 +12,7 @@ router.post("/create", async (req, res, next) => {
   debugger;
   let model = req.body;
   let result = await SpotsModel.create(model);
-  res.status(200).send(result);
+  res.status(200).send(result._doc);
 });
 
 module.exports = router;

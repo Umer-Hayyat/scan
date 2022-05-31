@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { Number, String, ObjectId } = mongoose.SchemaTypes.types;
+const { Number, String, ObjectId } = mongoose.Schema.Types;
 
 const schema = new mongoose.Schema({
   rowPosition: Number,

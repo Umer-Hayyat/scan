@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { Number, String, Date, ObjectId } = mongoose.SchemaTypes.types;
+const { Number, String, Date, ObjectId } = mongoose.Schema.Types;
 
 const Spot = require("./spots");
 
